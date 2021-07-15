@@ -103,12 +103,7 @@ const NavigationHeader: React.FC<{}> = () => {
           <NavLink to={`/about`} title={`About me`} activeClassName="active" >
             Me
           </NavLink>
-          <LinkTextWrap>
-            <LinkExternal data-a11y="false" aria-label={`Blog Tiếng Việt`} href={`https://vi.trongnguyen.co`} >
-              ★ VN
-            </LinkExternal>
-          </LinkTextWrap>
-          {/* <DarkModeToggle /> */}
+          <DarkModeToggle />
         </NavControls>
       </NavContainer>
     </Section>
