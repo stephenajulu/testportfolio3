@@ -1,14 +1,14 @@
 require("dotenv").config();
 
 const siteMetadata = {
-  title: `Trong Nguyen's Desk`,
-  name: `Trong Nguyen`,
-  siteUrl: `https://trongnguyen.co`,
+  title: `Stephen Ajulu`,
+  name: `Stephen Ajulu`,
+  siteUrl: `https://stephenajulu.com`,
   description: `Product Designer who's learning to write and express thoughts. Currently, I'm building Design System and improving Web Experience at Carousell.`,
   hero: {
-    heading: `Hi, I’m Trong, <br/>product designer.`,
-    writingHeading: `Writing is designing.`,
-    readingHeading: `Books for product designers`,
+    heading: `Hi, I’m Stephen Ajulu, <br/>web developer, designer & content creator.`,
+    writingHeading: `Thoughts and Writings.`,
+    readingHeading: `Books`,
     littleGalleryHeading: `Little big grid`,
     littleGallerySubtitle: `Little works and experiments but my big pride. I pour them all in this grid.`,
     maxWidth: 776,
@@ -48,10 +48,10 @@ const plugins = [
   {
     resolve: `gatsby-plugin-manifest`,
     options: {
-      name: `Trong Nguyen's Desk`,
-      short_name: `Trong`,
+      name: `Stephen Ajulu`,
+      short_name: `Ajulu`,
       start_url: `/`,
-      background_color: `#D1E8EB`,
+      background_color: `#000000`,
       display: `standalone`,
       icon: `src/assets/favicon.png`,
       include_favicon: false,
@@ -60,7 +60,7 @@ const plugins = [
   {
     resolve: `gatsby-plugin-google-analytics`,
     options: {
-      trackingId: "UA-55380266-4",
+      trackingId: "#",
     },
   },
   {
